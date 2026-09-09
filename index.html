@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SkillBridge</title>
+
+    <!-- Connect CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+    <header class="header">
+
+        <div class="logo">
+            Skill<span>Bridge</span>
+        </div>
+
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
+            <a href="#how-it-works">How It Works</a>
+            <a href="#profile">Student Profile</a>
+            <a href="#about">About</a>
+        </nav>
+
+    </header>
+
+
+    <!-- ================= HOME ================= -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <p class="small-title">
+                ACADEMIA • INDUSTRY • STUDENTS
+            </p>
+
+            <h1>
+                Bridge Your Skills
+                <br>
+                <span>To Your Career</span>
+            </h1>
+
+            <p class="hero-text">
+                SkillBridge connects students, colleges and industries
+                to identify skill gaps, discover opportunities and build
+                better career paths.
+            </p>
+
+            <a href="#profile" class="btn">
+                Start Your Career Journey →
+            </a>
+
+        </div>
+
+
+        <div class="hero-side">
+
+            <div>
+                🎓
+                <strong>Student</strong>
+            </div>
+
+            <div class="arrow">↕</div>
+
+            <div>
+                🏫
+                <strong>College</strong>
+            </div>
+
+            <div class="arrow">↕</div>
+
+            <div>
+                🏢
+                <strong>Industry</strong>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FEATURES ================= -->
+    <section class="features" id="features">
+
+        <div class="section-title">
+
+            <p>OUR SOLUTION</p>
+
+            <h2>What SkillBridge Offers</h2>
+
+        </div>
+
+
+        <div class="feature-container">
+
+            <!-- Feature 1 -->
+            <div class="feature-card">
+
+                <div class="icon">📊</div>
+
+                <h3>Skill Gap Analysis</h3>
+
+                <p>
+                    Identify the difference between the skills
+                    students have and the skills required by industries.
+                </p>
+
+            </div>
+
+
+            <!-- Feature 2 -->
+            <div class="feature-card">
+
+                <div class="icon">🎯</div>
+
+                <h3>Skill Mapping</h3>
+
+                <p>
+                    Match student skills with suitable career roles
+                    and industry requirements.
+                </p>
+
+            </div>
+
+
+            <!-- Feature 3 -->
+            <div class="feature-card">
+
+                <div class="icon">💼</div>
+
+                <h3>Internships</h3>
+
+                <p>
+                    Help students discover relevant internship
+                    opportunities from industries.
+                </p>
+
+            </div>
+
+
+            <!-- Feature 4 -->
+            <div class="feature-card">
+
+                <div class="icon">🚀</div>
+
+                <h3>Placement Connect</h3>
+
+                <p>
+                    Connect students with companies according
+                    to their skills and career interests.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= HOW IT WORKS ================= -->
+    <section class="how-it-works" id="how-it-works">
+
+        <div class="section-title">
+
+            <p>HOW IT WORKS</p>
+
+            <h2>How SkillBridge Works</h2>
+
+            <span>
+                A simple path from skills to career opportunities.
+            </span>
+
+        </div>
+
+
+        <div class="steps">
+
+            <!-- Step 1 -->
+            <div class="step">
+
+                <div class="step-number">1</div>
+
+                <h3>Create Your Profile</h3>
+
+                <p>
+                    Add your education, skills, interests and
+                    career goals.
+                </p>
+
+            </div>
+
+
+            <!-- Step 2 -->
+            <div class="step">
+
+                <div class="step-number">2</div>
+
+                <h3>Discover Skill Gaps</h3>
+
+                <p>
+                    Find out which skills you need to improve
+                    for your desired career.
+                </p>
+
+            </div>
+
+
+            <!-- Step 3 -->
+            <div class="step">
+
+                <div class="step-number">3</div>
+
+                <h3>Get Matched</h3>
+
+                <p>
+                    Discover suitable internships, courses
+                    and career opportunities.
+                </p>
+
+            </div>
+
+
+            <!-- Step 4 -->
+            <div class="step">
+
+                <div class="step-number">4</div>
+
+                <h3>Build Your Career</h3>
+
+                <p>
+                    Develop your skills and move confidently
+                    towards your career.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+<!-- ================= STUDENT PROFILE ================= -->
+
+<section class="profile" id="profile">
+
+    <div class="section-title">
+        <p>STUDENT PROFILE</p>
+        <h2>Build Your Skill Profile</h2>
+        <span>Tell us about yourself and discover your career path.</span>
+    </div>
+
+    <div class="profile-box">
+
+        <label>Full Name</label>
+        <input type="text" id="studentName" placeholder="Enter your name">
+
+        <label>Your Branch</label>
+        <select id="branch">
+            <option value="">Select your branch</option>
+            <option>Computer Engineering</option>
+            <option>AI & Data Science</option>
+            <option>Information Technology</option>
+            <option>Electronics & Telecommunication</option>
+            <option>Mechanical Engineering</option>
+            <option>Civil Engineering</option>
+        </select>
+
+        <label>Your Skills</label>
+        <input
+            type="text"
+            id="skills"
+            placeholder="Example: Python, HTML, Java"
+        >
+
+        <label>Career Interest</label>
+        <select id="career">
+            <option value="">Select your interest</option>
+            <option>Web Development</option>
+            <option>Data Science</option>
+            <option>Artificial Intelligence</option>
+            <option>Cyber Security</option>
+            <option>Software Development</option>
+        </select>
+
+        <button class="btn" onclick="createProfile()">
+            Create My Profile
+        </button>
+        <button class="btn" onclick="analyzeSkills()">
+    Analyze My Skills 📊
+</button>
+<button class="btn" onclick="recommendCareer()">
+    Get Career Recommendation 🎯
+</button>
+<button class="btn" onclick="showRoadmap()">
+    Show My Learning Roadmap 📚
+</button>
+
+        <div id="profileResult"></div>
+
+    </div>
+
+</section>
+
+    <!-- ================= ABOUT ================= -->
+    <section class="about" id="about">
+
+        <div class="section-title">
+
+            <p>ABOUT SKILLBRIDGE</p>
+
+            <h2>Connecting Students With Their Future</h2>
+
+        </div>
+
+        <p class="about-text">
+            SkillBridge is a platform that connects students,
+            colleges and industries. It helps students understand
+            their skill gaps, find suitable opportunities and
+            prepare for successful careers.
+        </p>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <div class="logo">
+            Skill<span>Bridge</span>
+        </div>
+
+        <p>
+            Bridge Your Skills To Your Career
+        </p>
+
+        <p>
+            © 2026 SkillBridge. All Rights Reserved.
+        </p>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+<section class="opportunities">
+    <h2>💼 Opportunities</h2>
+    <p>Explore opportunities for your career.</p>
+
+    <div class="opportunity-card">
+        <h3>🎓 Online Courses</h3>
+        <p>Learn new skills through courses and certifications.</p>
+        <button class="btn" onclick="showCourses()">Explore Courses</button>
+    </div>
+
+    <div class="opportunity-card">
+        <h3>💼 Internships</h3>
+        <p>Find internships related to your career.</p>
+        <button class="btn" onclick="showInternships()">Explore Internships</button>
+    </div>
+
+    <div class="opportunity-card">
+        <h3>🏆 Competitions</h3>
+        <p>Participate in competitions and hackathons.</p>
+        <button class="btn" onclick="showCompetitions()">Explore Competitions</button>
+    </div>
+
+    <div id="opportunityResult"></div>
+</section>
+</body>
+
+</html>
